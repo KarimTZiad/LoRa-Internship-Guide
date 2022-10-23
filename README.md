@@ -212,16 +212,21 @@ Now is time to setup the gateway on TTN.
 </p>
 <br>Now we return to the Raspberry Pi console to configure it to our newly created gateway.
 <br>First, create a directory to store our configuration files:
+
 ```
 sudo mkdir -p /opt/ttn-station/config
 ```
+
 Then, create a 'tc.uri' file that contains the server address (eu1.cloud.thethings.network in this case).
+
 ```
 echo 'wss://eu1.cloud.thethings.network:8887' | sudo tee /opt/ttn-station/config/tc.uri
 ```
+
 Now, the 'tc.key' file that was downloaded needs to be placed into the config folder.
 <br>For that end, you could:
    - Place the file into the '/opt/ttn-station/config' folder by mounting a flash device containing that file and moving it there:
+   
    ```
    sudo mkdir /mnt/usb
    sudo mount /dev/sda1 /mnt/usb
