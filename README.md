@@ -208,9 +208,9 @@ Now is time to setup the gateway on TTN.
 - Voilà! You should see something similar to this in front of you:
 </ul>
 <p align="center">
-   <img alt="New Gateway setup on TTN" src="media/ttn-new-gateway.png"
+   <img alt="New Gateway setup on TTN" src="media/ttn-new-gateway.png">
 </p>
-<div><br>Now we return to the Raspberry Pi console to configure it to our newly created gateway.
+<br>Now we return to the Raspberry Pi console to configure it to our newly created gateway.
 <br>First, create a directory to store our configuration files:
 ```
 sudo mkdir -p /opt/ttn-station/config
